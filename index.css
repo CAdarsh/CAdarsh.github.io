@@ -46,9 +46,15 @@ li a {
 .nav-container{
     height: 60px;
     width: 100vw;
+    position: fixed;
+    z-index: 2;
+    -webkit-transition: background-image 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url(7080.png);
 }
+
 .background{
-    
+   
     width: 100vw;
     background-image: url("7080.png");
     background-repeat: no-repeat;
@@ -58,7 +64,7 @@ li a {
 .background-title{
     color: aliceblue;
     font-size: 45px;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Cinzel', serif;
